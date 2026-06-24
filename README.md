@@ -118,6 +118,8 @@ curl http://127.0.0.1:8000/transactions
 3. Calculate cashback: `min(amount × reward_rate / 100, max_cashback)`
 4. Save the transaction
 5. Return the recommendation
+   
+<img width="677" height="518" alt="Recommendation Algorithm - visual selection" src="https://github.com/user-attachments/assets/30f0f656-f6fc-4934-a10f-3499ccb1d4ca" />
 
 ## Project Structure
 
