@@ -145,7 +145,3 @@ vercel deploy --prod
 Vercel auto-detects `main.py` with the `app` FastAPI instance. On Vercel, SQLite uses `/tmp/rewards.db` and sample cards are seeded on startup.
 
 > **Note:** Vercel serverless functions use ephemeral storage. Data may reset on cold starts. For production persistence, migrate to PostgreSQL or another managed database.
-
-## Resume Description
-
-Developed a FastAPI-based RESTful backend service that recommends the optimal credit card and estimates cashback for user transactions based on configurable reward rules. Designed CRUD APIs using SQLAlchemy and SQLite, implemented Pydantic validation, and structured the application with a modular backend architecture.
