@@ -144,4 +144,5 @@ vercel deploy --prod
 
 Vercel auto-detects `main.py` with the `app` FastAPI instance. On Vercel, SQLite uses `/tmp/rewards.db` and sample cards are seeded on startup.
 
+
 > **Note:** Vercel serverless functions use ephemeral storage. Data may reset on cold starts. For production persistence, migrate to PostgreSQL or another managed database.
