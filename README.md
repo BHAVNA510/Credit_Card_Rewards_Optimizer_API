@@ -6,6 +6,8 @@ A RESTful backend service that recommends the optimal credit card and estimates 
 
 Users often own multiple credit cards, each with different cashback rates and reward policies. Choosing the best card for every purchase can be confusing. This API analyzes transaction details and recommends the most rewarding credit card while estimating cashback.
 
+<img width="822" height="359" alt="_- visual selection" src="https://github.com/user-attachments/assets/37b09b5a-dcd2-4d6a-a4f7-b928f6f68da6" />
+
 ## Tech Stack
 
 | Layer | Technology |
